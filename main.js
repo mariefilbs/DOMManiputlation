@@ -1,13 +1,13 @@
 //Define answer:
-var answer=document.getElementById("answer");
+var answer =document.getElementById("answer");
 
 //Define calculate button:
-var calcButton=document.getElementById("calculate-button");
+var calcButton =document.getElementById("calculate-button");
 
 var calculate = function () {
   //Define the two input boxes
-  var input1=document.getElementById("value-one");
-  var input2=document.getElementById("value-two");
+  var input1 =document.getElementById("value-one");
+  var input2 =document.getElementById("value-two");
 
   //Math Time!
   var x = Number(input1.value);
